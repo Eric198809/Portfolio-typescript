@@ -1,0 +1,23 @@
+.up{
+  width: 60px;
+  height: 60px;
+  border: solid 2px white;
+  border-radius: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;
+
+  img{
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+
+    &:hover{
+      transform: translateY(-6px);
+    }
+  }
+}

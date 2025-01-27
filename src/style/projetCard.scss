@@ -1,0 +1,98 @@
+.projet_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30%; 
+  height: 400px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  overflow: hidden;
+  transition: all 0.3s ease; 
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+
+  &:hover {
+    transform: scale(1.03); 
+    border: solid 1px var(--secondary);
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.13);
+  }
+
+  .open_modal_card_details {
+    background-color: var(--secondary);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+
+    &::before {
+      content: "Voir les détails";
+      background-color: var(--secondary);
+      padding: 3px 3px;
+      position: absolute;
+      width: fit-content;
+      color: #ffffff;
+      left: -100px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: none;
+    }
+
+    &:hover::before {
+      display: inline-block;
+    }
+  }
+
+  .content_projet {
+    backdrop-filter: blur(7px);
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .stack_projets {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0px;
+  }
+
+  .projet_card_bouton {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0px;
+
+    a {
+      width: 150px;
+      font-size: 11px;
+      border-radius: 10px;
+      color: #ffffff;
+      background: transparent;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projets_section {
+    margin: 0px;
+  }
+
+  .projet_card {
+    width: 90%;
+    height: 300px;
+  }
+}
