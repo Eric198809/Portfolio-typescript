@@ -1,16 +1,16 @@
 import "../style/modalCartdDetails.scss";
 
-interface StackDetail {
-  image: string;
-  techno: string;
-}
 
 interface Projet {
+  id: number;
+  content: string;
   image: string;
   titre: string;
-  content: string;
-  stackDetails: StackDetail[];
-  details?: string[];
+  stackDetails: { image: string; techno: string }[];
+  imageStack: string[];
+  website?: string;
+  githubLink: string;
+  details?: string[]
 }
 
 interface ModalCardDetailsProps {
@@ -21,7 +21,6 @@ interface ModalCardDetailsProps {
 
 const ModalCardDetails: React.FC<ModalCardDetailsProps> = ({
   setModalDetailsIsOpen,
-  modalDetailIsOpen,
   projet,
 }) => {
   console.log(projet);
@@ -44,7 +43,7 @@ const ModalCardDetails: React.FC<ModalCardDetailsProps> = ({
       </div>
 
       <div className="stack_projet">
-        {projet.stackDetails.map((stack, index) => (
+        {projet.stackDetails.map((stack, index:number) => (
           <div key={index} className="stack">
             <img src={stack.image} alt="" />
             <p>{stack.techno}</p>
@@ -53,7 +52,7 @@ const ModalCardDetails: React.FC<ModalCardDetailsProps> = ({
       </div>
       <div className="details_projet">
         {projet.details &&
-          projet.details.map((detail, index) => <p key={index}>{detail}</p>)}
+          projet.details.map((detail: string, index: number) => <p key={index}>{detail}</p>)}
       </div>
     </div>
   );

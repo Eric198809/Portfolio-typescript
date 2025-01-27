@@ -3,12 +3,15 @@ import "../style/projetCard.scss";
 import ModalCardDetails from "./ModalCardDetails";
 
 interface Projet {
-  id: string;
+  id: number;
+  content: string;
   image: string;
   titre: string;
+  stackDetails: { image: string; techno: string }[];
   imageStack: string[];
   website?: string;
   githubLink: string;
+  details?:string[]
 }
 
 interface ProjetCardProps {

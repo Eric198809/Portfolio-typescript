@@ -4,13 +4,13 @@ import ProjetCard from "./ProjetCard";
 import { useState } from "react";
 
 interface Projet {
-  id: string;
+  id: number;
   titre: string;
   image: string;
   imageStack: string[];
   website?: string;
   githubLink: string;
-  categorie: string[];
+  categorie: string;
   content: string;
   stackDetails: { image: string; techno: string }[];
   details?: string[];
