@@ -9,7 +9,7 @@ interface Projet {
   image: string;
   imageStack: string[];
   website?: string;
-  githubLink: string;
+  githubLink?: string;
   categorie: string;
   content: string;
   stackDetails: { image: string; techno: string }[];
