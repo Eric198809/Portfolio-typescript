@@ -1,0 +1,105 @@
+.skills_cointainer_section {
+  margin: 80px 30px;
+}
+
+/* Section */
+.skills {
+  text-align: center;
+}
+
+/* Conteneur des cartes */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* cartes */
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  min-height: 400px;
+  border: solid 1px var(--secondary);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre des catégories */
+.category h3 {
+  // font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 10px 0px;
+  background-color: var(--secondary);
+
+  letter-spacing: 1px;
+}
+
+/* Liste des compétences */
+.category ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+gap: 5px;
+  margin-bottom: 1rem;
+}
+
+.category li img {
+  width: 50px;
+  height: 50px;
+
+  transition: transform 0.3s ease;
+}
+
+.category li img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  .skills-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .category {
+    width: 100%;
+    min-height: fit-content;
+    // padding: 0px;
+
+    ul {
+      gap: 20px;
+
+      li {
+        width: fit-content;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+
+        p{
+          font-size: 0.8rem;
+          padding: 5px 0px;
+        }
+      }
+    }
+  }
+}

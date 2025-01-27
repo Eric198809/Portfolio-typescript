@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "categorie": "React",
+    "titre": "LE COMPTOIR DES SEELIES",
+    "content": "Troisième et dernier projet de ma formation développeur web/web mobile. Le comptoir des Seelies est un site e-commerce de produits artisanaux commandé par quatre amies afin de faire découvrir leur univers féérique et leurs créations faites mains.",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg", "/icons/express.svg","/icons/sql.svg"],
+    "image": "/images/seelies.png",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"},{"image": "/icons/express.svg", "techno":"Express"},{"image": "/icons/workbench.svg", "techno":"MySQL"}],
+    "details":["Utilisation API REST", "Model MVC","Token d'authentification"],
+    "githubLink": "https://github.com/Eric198809/Le-comptoir-des-seelies-"
+  },
+  {
+    "id": 2,
+    "categorie": "React",
+    "titre": "GENKO",
+    "content": "Deuxième projet mené lors de ma formation Développeur web/web mobile. Ce petit site permet l'apprentissage du français de façon ludique à travers de petits jeux. L'objectif est de franchir quatre niveaux en accumulant assez de points pour passer au niveau supérieur.",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/css.svg"],
+    "image": "/images/Genko.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/WildCodeSchool/11-2023-Rem-FR-Crew-Bleu-LaPromodoro-G4",
+    "website": "https://main--chipper-youtiao-cca0a4.netlify.app/"
+  },
+  {
+    "id": 3,
+    "categorie": "React",
+    "titre": "QUE L'AMOUR SOIT AVEC TOI",
+    "content": "Projet mené en groupe dans le cadre d'un hackathon de deux jours. Choisissez votre personnage et essayez de trouver l'amour lors d'un speed dating en répondant correctement aux questions de votre prétendant(e).",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/css.svg"],
+    "image": "/images/que l'amour soit avec toi.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/hackathon",
+    "website": "https://paul-lac.github.io/QueLAmourSoitAvecToi/"
+  },
+  {
+    "id": 4,
+    "categorie": "React",
+    "titre": "CINE APP REACT",
+    "content": "Cette petite app ciné vous permet de rechercher des films parmi une large bibliothèque et de sélectionner vos films coup de coeur. Pour ce projet, j'ai fait appel à une API afin d'avoir un catalogue à jour.",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg"],
+    "image": "/images/cineapp.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/Cin--app-React",
+    "website": "https://cine-app-react.netlify.app/"
+  },
+  {
+    "id": 5,
+    "categorie": "React",
+    "titre": "COUNTRIES APP REACT",
+    "content": "Cette petite app ciné vous permet d'obtenir des informations sur les différents pas du monde. Il vous suffit de rechercher un pays pour connaitre la capitale, la population...",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg"],
+    "image": "/images/countriesapp.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/Countries-react-project",
+    "website": "https://countries-react-appli.netlify.app/"
+  },
+  {
+    "id": 6,
+    "categorie": "React",
+    "titre": "To Do List REACT",
+    "content": "Cette To Do List vous permet d'ajouter des taches, les modifier, les supprimer et les valider.",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/css.svg"],
+    "image": "/images/TodoListReact.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/To-do-List-React",
+    "website": "https://to-do-list-react-eric.netlify.app/"
+  },
+  {
+    "id": 7,
+    "categorie": "TypeScript",
+    "titre": "Jeu Morpion",
+    "content": "Jeu de morpion en TypeScript.",
+    "imageStack": ["/icons/typescript.svg", "/icons/node.svg", "/icons/css.svg"],
+    "image": "/images/morpion-tsx.jpg",
+    "stackDetails":[{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/Morpion",
+    "website": "https://morpion-tsx.netlify.app/"
+  },
+  {
+    "id": 8,
+    "categorie": "React",
+    "titre": "Dashboard Crypto Monnaies",
+    "content": "Tableau de bord permettant de suivre les cours des différentes crypto monnaies.",
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg"],
+    "image": "/images/crypto-watch.jpg",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/Crypto-Dashboard-React",
+    "website": "https://dashboard-crypo.netlify.app/"
+  }
+]

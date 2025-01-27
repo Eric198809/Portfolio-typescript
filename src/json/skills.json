@@ -1,0 +1,92 @@
+[
+  {
+  "catégorie": "Front End",
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/icons/html.svg"
+    },
+    {
+      "name": "CSS",
+      "image": "/icons/css.svg"
+    },
+    {
+      "name": "JavaScript",
+      "image": "/icons/javascript.svg"
+    },
+    {
+      "name": "React",
+      "image": "/icons/react.svg"
+    },
+    {
+      "name": "PHP",
+      "image": "/icons/php.svg"
+    },
+    {
+      "name": "TypeScript",
+      "image": "/icons/typescript.svg"
+    },
+    {
+      "name": "SCSS",
+      "image": "/icons/sass.svg"
+    }
+    
+  ]},
+  {
+  "catégorie": "Back end",
+  "skills": [
+    {
+      "name": "NodeJS",
+      "image": "/icons/node.svg"
+    },
+    {
+      "name": "Express",
+      "image": "/icons/express.svg"
+    },
+    {
+      "name": "SQL",
+      "image": "/icons/sql.svg"
+    }
+   
+    
+    ]},
+    {
+  "catégorie":"Gestion",
+  "skills":[
+    {
+      "name": "Git",
+      "image": "/icons/git.svg"
+    },
+    {
+      "name": "Github",
+      "image": "/icons/github2.svg"
+    }
+    
+    
+    ]},
+    {
+  "catégorie": "Outils",
+  "skills" : [
+    {
+      "name": "Figma",
+      "image": "/icons/figma.svg"
+    },
+    {
+      "name": "Trello",
+      "image": "/icons/trello.svg"
+    },
+    {
+      "name": "Workbench",
+      "image": "/icons/workbench.svg"
+    },
+    {
+      "name": "Postman",
+      "image": "/icons/postman.svg"
+    },
+    {
+      "name": "Wordpress",
+      "image": "/icons/wordpress.svg"
+    }
+    
+    ]}
+]
