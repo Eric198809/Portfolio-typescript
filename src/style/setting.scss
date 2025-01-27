@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  //  Colors //
+  --primary: #051324;
+  --texte: #f8fbff;
+  --secondary: #575eff;
+  --font-texte: "montserrat", sans-serif;
+  --font-titre: "Bebas Neue", sans-serif;
+
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--primary);
+  color: var(--texte);
+  font-family: var(--font-texte);
+  margin: 0px 10px;
+
+  p {
+    font-family: var(--font-texte);
+    font-size: 1.12rem;
+    color: var(--texte);
+  }
+
+  h1 {
+    font-family: var(--font-titre);
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--texte);
+    text-transform: uppercase;
+  }
+  h2 {
+    font-family: var(--font-titre);
+    font-size: 3rem;
+    color: var(--texte);
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  h3 {
+    font-family: var(--font-titre);
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: var(--texte);
+    text-transform: uppercase;
+  }
+  h4 {
+    font-family: var(--font-titre);
+    font-weight: 400;
+    font-size: 2rem;
+    color: var(--texte);
+    text-transform: uppercase;
+  }
+
+  .title_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+
+    .title_section_line_gauche {
+      width: 90px;
+      height: 2px;
+      background-color: var(--secondary);
+    }
+
+    .title_section_line_droite {
+      width: 90px;
+      height: 2px;
+      background-color: var(--secondary);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--texte);
+  }
+
+  .bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+    position: relative;
+    padding: 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(to right, #575eff 50%, #051324 50%);
+    background-size: 200% 100%; 
+    background-position: right bottom; 
+    border: solid 1px var(--secondary);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-out; 
+  }
+  
+  .bouton:hover {
+    background-position: left bottom;  
+    color: #ffffff; 
+  }
+  
+  .bouton:focus {
+    outline: none; 
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+}
