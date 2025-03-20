@@ -7,6 +7,7 @@ const Header: React.FC = () => {
     "CSS",
     "JS",
     "React",
+    "NextJS",
     "TypeScript",
     "Node.js",
     "Front", "Back", "Fullstack",

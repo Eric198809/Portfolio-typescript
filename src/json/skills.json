@@ -3,6 +3,22 @@
   "catégorie": "Front End",
   "skills": [
     {
+      "name": "JavaScript",
+      "image": "/icons/javascript.svg"
+    },
+    {
+      "name": "TypeScript",
+      "image": "/icons/typescript.svg"
+    },
+    {
+      "name": "React",
+      "image": "/icons/react.svg"
+    },
+    {
+      "name": "NextJS",
+      "image": "/icons/next-js.svg"
+    },
+    {
       "name": "HTML",
       "image": "/icons/html.svg"
     },
@@ -11,25 +27,15 @@
       "image": "/icons/css.svg"
     },
     {
-      "name": "JavaScript",
-      "image": "/icons/javascript.svg"
+      "name": "SCSS",
+      "image": "/icons/sass.svg"
     },
-    {
-      "name": "React",
-      "image": "/icons/react.svg"
-    },
+    
     {
       "name": "PHP",
       "image": "/icons/php.svg"
-    },
-    {
-      "name": "TypeScript",
-      "image": "/icons/typescript.svg"
-    },
-    {
-      "name": "SCSS",
-      "image": "/icons/sass.svg"
     }
+   
     
   ]},
   {
@@ -44,8 +50,16 @@
       "image": "/icons/express.svg"
     },
     {
+      "name": "NextJS",
+      "image": "/icons/next-js.svg"
+    },
+    {
       "name": "SQL",
       "image": "/icons/sql.svg"
+    },
+    {
+      "name": "MongoDB",
+      "image": "/icons/mongodb.svg"
     }
    
     

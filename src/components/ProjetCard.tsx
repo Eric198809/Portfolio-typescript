@@ -44,7 +44,7 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
                 key={index}
                 src={stack}
                 alt="image stack projet"
-                style={{ width: "30px" }}
+                style={{ width: "40px" }}
               />
             ))}
           </div>

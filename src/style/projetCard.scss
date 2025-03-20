@@ -24,7 +24,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.13);
+    background: rgba(0, 0, 0, 0.25);
   }
 
   .open_modal_card_details {
@@ -69,6 +69,8 @@
     display: flex;
     gap: 5px;
     margin: 10px 0px;
+
+    
   }
 
   .projet_card_bouton {
@@ -85,6 +87,8 @@
     }
   }
 }
+
+
 
 @media screen and (max-width: 800px) {
   .projets_section {
