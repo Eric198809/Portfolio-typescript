@@ -3,12 +3,15 @@ import "../style/projetCard.scss";
 import ModalCardDetails from "./ModalCardDetails";
 
 interface Projet {
-  id: string;
+  id: number;
+  content: string;
   image: string;
   titre: string;
+  stackDetails: { image: string; techno: string }[];
   imageStack: string[];
   website?: string;
-  githubLink: string;
+  githubLink?: string;
+  details?:string[]
 }
 
 interface ProjetCardProps {
@@ -52,10 +55,10 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
                 <img style={{ width: "15px" }} src="/icons/logoworld.svg" alt="logo world" />
               </a>
             )}
-            <a className="bouton" href={projet.githubLink}>
+           { projet.githubLink &&<a className="bouton" href={projet.githubLink}>
               Voir le Github
               <img style={{ width: "20px" }} src="/icons/github2.svg" alt="logo github" />
-            </a>
+            </a>}
           </div>
         </div>
       </div>

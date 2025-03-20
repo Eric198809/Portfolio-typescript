@@ -4,7 +4,7 @@
     "categorie": "React",
     "titre": "LE COMPTOIR DES SEELIES",
     "content": "Troisième et dernier projet de ma formation développeur web/web mobile. Le comptoir des Seelies est un site e-commerce de produits artisanaux commandé par quatre amies afin de faire découvrir leur univers féérique et leurs créations faites mains.",
-    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg", "/icons/express.svg","/icons/sql.svg"],
+    "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/sass.svg", "/icons/express.svg","/icons/workbench.svg"],
     "image": "/images/seelies.png",
     "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"},{"image": "/icons/express.svg", "techno":"Express"},{"image": "/icons/workbench.svg", "techno":"MySQL"}],
     "details":["Utilisation API REST", "Model MVC","Token d'authentification"],
@@ -27,7 +27,7 @@
     "titre": "QUE L'AMOUR SOIT AVEC TOI",
     "content": "Projet mené en groupe dans le cadre d'un hackathon de deux jours. Choisissez votre personnage et essayez de trouver l'amour lors d'un speed dating en répondant correctement aux questions de votre prétendant(e).",
     "imageStack": ["/icons/react.svg", "/icons/node.svg", "/icons/css.svg"],
-    "image": "/images/que l'amour soit avec toi.jpg",
+    "image": "/images/que-l-amour-soit-avec-toi.jpg",
     "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
     "githubLink": "https://github.com/Eric198809/hackathon",
     "website": "https://paul-lac.github.io/QueLAmourSoitAvecToi/"
@@ -86,5 +86,26 @@
     "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
     "githubLink": "https://github.com/Eric198809/Crypto-Dashboard-React",
     "website": "https://dashboard-crypo.netlify.app/"
+  },
+  {
+    "id": 9,
+    "categorie": "TypeScript",
+    "titre": "Portofolio",
+    "content": "Mon portfolio incluant mon parcours et mes projets.",
+    "imageStack": ["/icons/typescript.svg", "/icons/node.svg", "/icons/sass.svg"],
+    "image": "/images/portfolio-Eric.jpg",
+    "stackDetails":[{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "githubLink": "https://github.com/Eric198809/Portfolio-typescript",
+    "website": "https://eric-besson-portfolio.netlify.app/"
+  },
+  {
+    "id": 10,
+    "categorie": "PHP (wordpress)",
+    "titre": "After the Outbreak",
+    "content": "Site Wordpress/Php pour le groupe de musique After the Oubreak",
+    "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/After-the-outbreak.jpg",
+    "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
+    "website": "https://aftertheoutbreak.com/"
   }
 ]
