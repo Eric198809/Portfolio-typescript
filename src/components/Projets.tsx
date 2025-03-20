@@ -19,9 +19,8 @@ interface Projet {
 const Projets = () => {
   const projetsMenu = [
     "React",
-    "React Native",
+    "NextJS",
     "Javascript",
-    "TypeScript",
     "PHP (wordpress)",
   ];
 

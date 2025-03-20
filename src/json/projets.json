@@ -67,12 +67,12 @@
   },
   {
     "id": 7,
-    "categorie": "TypeScript",
+    "categorie": "React",
     "titre": "Jeu Morpion",
     "content": "Jeu de morpion en TypeScript.",
-    "imageStack": ["/icons/typescript.svg", "/icons/node.svg", "/icons/css.svg"],
+    "imageStack": ["/icons/react.svg","/icons/typescript.svg", "/icons/node.svg", "/icons/css.svg"],
     "image": "/images/morpion-tsx.jpg",
-    "stackDetails":[{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "stackDetails":[{"image": "/icons/react.svg", "techno":"React"},{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/css.svg", "techno":"CSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
     "githubLink": "https://github.com/Eric198809/Morpion",
     "website": "https://morpion-tsx.netlify.app/"
   },
@@ -89,12 +89,12 @@
   },
   {
     "id": 9,
-    "categorie": "TypeScript",
+    "categorie": "React",
     "titre": "Portofolio",
     "content": "Mon portfolio incluant mon parcours et mes projets.",
-    "imageStack": ["/icons/typescript.svg", "/icons/node.svg", "/icons/sass.svg"],
+    "imageStack": ["/icons/react.svg","/icons/typescript.svg", "/icons/node.svg", "/icons/sass.svg"],
     "image": "/images/portfolio-Eric.jpg",
-    "stackDetails":[{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
+    "stackDetails":[{"image": "/icons/react.svg", "techno":"React"},{"image":"/icons/typescript.svg", "techno":"Typescript"},{"image": "/icons/sass.svg", "techno":"SCSS"},{"image":"/icons/node.svg", "techno":"NodeJS"}],
     "githubLink": "https://github.com/Eric198809/Portfolio-typescript",
     "website": "https://eric-besson-portfolio.netlify.app/"
   },
@@ -107,5 +107,25 @@
     "image": "/images/After-the-outbreak.jpg",
     "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
     "website": "https://aftertheoutbreak.com/"
+  },
+  {
+    "id": 11,
+    "categorie": "PHP (wordpress)",
+    "titre": "Zikos BO",
+    "content": "Site Wordpress/Php pour l'association musicale Zikos BO'",
+    "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/zikosBO.png",
+    "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
+    "website": "https://zikos-bo.fr/"
+  },
+  {
+    "id": 12,
+    "categorie": "PHP (wordpress)",
+    "titre": "Ophélie Blanc Ostéopathe",
+    "content": "Site Wordpress/Php pour l'ostéoptahe Ophélie Blanc'",
+    "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/OphelieBlanc.png",
+    "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
+    "website": "https://ophelie-blanc-osteopathe.fr/"
   }
 ]
