@@ -6,10 +6,7 @@ interface Skill {
   name: string;
 }
 
-interface Category {
-  name: string;
-  imge: string;
-}
+
 
 const Skills = () => {
   return (
@@ -23,7 +20,7 @@ const Skills = () => {
       <p >En tant que développeur full-stack, j'ai toujours été attiré par le langage JavaScript, un langage qui me permet de donner vie à des projets dynamiques et interactifs. Je me suis spécialisé dans ce domaine et utilise principalement React pour créer des applications web modernes et performantes.</p>
         <section className="skills">
           <div className="skills-container">
-            {dataSkills.map((skill: Category, index: number) => (
+            {dataSkills.map((skill: Skill, index: number) => (
               <div key={index} className="category">
                <img src={skill.image} style={{width:"50px"}} alt={skill.name} />
                       <p>{skill.name}</p>

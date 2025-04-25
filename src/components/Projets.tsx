@@ -1,5 +1,4 @@
 import projets from "../json/projets.json";
-import Projets2 from "../components/ProjetsCard2.tsx";
 import "../style/projets.scss";
 import ProjetCard2 from "./ProjetsCard2.tsx";
 import { useState } from "react";
