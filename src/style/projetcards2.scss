@@ -3,8 +3,13 @@
   width: 30%;
   margin: 0 auto;
   cursor: pointer;
+  border: solid 1px var(--secondary);
+  
+  
 
- 
+  h3{
+    padding: 10px;
+  }
 
 
 }
@@ -13,11 +18,13 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 0.5rem;
-  background-color: #f7f7f7; // bg-gray-light
+  // background-color: #f7f7f7; // bg-gray-light
 
   img{
-    height: 400px;
+    height: 300px;
   }
+
+ 
 
  
 
