@@ -1,6 +1,7 @@
 import projets from "../json/projets.json";
+import Projets2 from "../components/ProjetsCard2.tsx";
 import "../style/projets.scss";
-import ProjetCard from "./ProjetCard";
+import ProjetCard2 from "./ProjetsCard2.tsx";
 import { useState } from "react";
 
 interface Projet {
@@ -44,7 +45,7 @@ const Projets = () => {
                 .sort((a, b) => b.id - a.id)
                 .slice(0, 3)
                 .map((projet: Projet) => (
-                  <ProjetCard key={projet.id} projet={projet} />
+                  <ProjetCard2 projet={projet}/> 
                 ))}
             </div>
           </div>
@@ -94,16 +95,17 @@ const Projets = () => {
                         projet.categorie.includes(selectedMenu)
                       )
                       .map((projet: Projet) => (
-                        <ProjetCard key={projet.id} projet={projet} />
+                        <ProjetCard2 key={projet.id} projet={projet} />
                       ))
                   : projets.map((projet: Projet) => (
-                      <ProjetCard key={projet.id} projet={projet} />
+                      <ProjetCard2 key={projet.id} projet={projet} />
                     ))}
               </div>
             </div>
           )}
         </div>
       </section>
+      
     </>
   );
 };

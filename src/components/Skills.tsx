@@ -7,8 +7,8 @@ interface Skill {
 }
 
 interface Category {
-  catégorie: string;
-  skills: Skill[];
+  name: string;
+  imge: string;
 }
 
 const Skills = () => {
@@ -20,19 +20,14 @@ const Skills = () => {
           <h2 className="test">Compétences</h2>
           <span className="title_section_line_droite"></span>
         </div>
+      <p >En tant que développeur full-stack, j'ai toujours été attiré par le langage JavaScript, un langage qui me permet de donner vie à des projets dynamiques et interactifs. Je me suis spécialisé dans ce domaine et utilise principalement React pour créer des applications web modernes et performantes.</p>
         <section className="skills">
           <div className="skills-container">
-            {dataSkills.map((category: Category, index: number) => (
+            {dataSkills.map((skill: Category, index: number) => (
               <div key={index} className="category">
-                <h3>{category.catégorie}</h3>
-                <ul>
-                  {category.skills.map((skill: Skill, index: number) => (
-                    <li key={index}>
-                      <img src={skill.image} alt={skill.name} />
+               <img src={skill.image} style={{width:"50px"}} alt={skill.name} />
                       <p>{skill.name}</p>
-                    </li>
-                  ))}
-                </ul>
+                  
               </div>
             ))}
           </div>

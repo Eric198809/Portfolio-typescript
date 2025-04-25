@@ -23,6 +23,7 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
 
   return (
     <>
+    <div className="" style={{display: "flex", flexDirection:"column"}}>
       <div
         key={projet.id}
         className="projet_card"
@@ -36,7 +37,9 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
           <img src="/icons/plus.svg" alt="icone plus" />
         </button>
 
-        <div className="content_projet">
+        
+      </div>
+      <div className="content_projet">
           <h3>{projet.titre}</h3>
           <div className="stack_projets">
             {projet.imageStack.map((stack, index) => (
@@ -61,7 +64,6 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
             </a>}
           </div>
         </div>
-      </div>
       {modalDetailIsOpen && (
         <ModalCardDetails
           setModalDetailsIsOpen={setModalDetailsIsOpen}
@@ -69,6 +71,7 @@ const ProjetCard: React.FC<ProjetCardProps> = ({ projet }) => {
           projet={projet}
         />
       )}
+      </div>
     </>
   );
 };

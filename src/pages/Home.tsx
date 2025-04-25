@@ -6,6 +6,7 @@ import Projets from "../components/Projets.tsx";
 import Footer from "../components/Footer.tsx";
 import "../style/home.scss";
 
+
 function Home() {
 
   // Fonction pour remonter en haut de la page
@@ -34,6 +35,7 @@ function Home() {
       <div className="up" onClick={scrollToTop}>
         <img src="/icons/arrowup.svg" alt="fleche" />
       </div>
+      
     </>
   );
 }
