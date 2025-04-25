@@ -17,7 +17,7 @@ const Skills = () => {
           <h2 className="test">Compétences</h2>
           <span className="title_section_line_droite"></span>
         </div>
-      <p >En tant que développeur full-stack, j'ai toujours été attiré par le langage JavaScript, un langage qui me permet de donner vie à des projets dynamiques et interactifs. Je me suis spécialisé dans ce domaine et utilise principalement React pour créer des applications web modernes et performantes.</p>
+      <p >En tant que développeur full-stack, j'ai toujours été attiré par le langage JavaScript, un langage qui me permet de donner vie à des projets dynamiques et interactifs. Je me suis spécialisé dans ce domaine et utilise principalement React.</p>
         <section className="skills">
           <div className="skills-container">
             {dataSkills.map((skill: Skill, index: number) => (
