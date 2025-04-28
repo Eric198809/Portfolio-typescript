@@ -2,10 +2,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import dataSkills from "../json/skills.json";
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import '../style/skillsCaroussel.scss'; // Le CSS associé
+import 'swiper/css'; // toujours ça pour swiper de base
+import 'swiper/css/navigation'; // navigation
+import 'swiper/css/pagination'; // pagination
+import '../style/skillsCaroussel.scss'; 
 
 const SkillsCarousel = () => {
 
