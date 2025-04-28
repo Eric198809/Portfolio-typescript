@@ -112,7 +112,7 @@
     "id": 11,
     "categorie": "PHP (wordpress)",
     "titre": "Zikos BO",
-    "content": "Site Wordpress/Php pour l'association musicale Zikos BO'",
+    "content": "Site Wordpress/Php pour l'association musicale Zikos BO",
     "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
     "image": "/images/zikosBO.png",
     "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
@@ -122,7 +122,7 @@
     "id": 12,
     "categorie": "PHP (wordpress)",
     "titre": "Ophélie Blanc Ostéopathe",
-    "content": "Site Wordpress/Php pour l'ostéoptahe Ophélie Blanc'",
+    "content": "Site Wordpress/Php pour l'ostéoptahe Ophélie Blanc",
     "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
     "image": "/images/OphelieBlanc.png",
     "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
@@ -132,10 +132,21 @@
     "id": 13,
     "categorie": "PHP (wordpress)",
     "titre": "Clara Rosa Photographe",
-    "content": "Site Wordpress/Php pour la photographe Clara Rosa'",
+    "content": "Site Wordpress/Php pour la photographe Clara Rosa",
     "imageStack": ["/icons/wordpress.svg", "/icons/php.svg", "/icons/workbench.svg"],
     "image": "/images/clara-photographe.webp",
     "stackDetails":[{"image":"/icons/wordpress.svg", "techno":"Wordpress"},{"image": "/icons/php.svg", "techno":"PHP"},{"image":"/icons/workbench.svg", "techno":"Mysql"}],
     "website": "https://clarar-photographie.fr/"
+  },
+  {
+    "id": 14,
+    "categorie": "React",
+    "titre": "Pomodoro",
+    "content": "Création d'une pomodoro avec React et tailwind css.",
+    "imageStack": ["/icons/react.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/Pomodoro.png",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/node.svg", "techno":"NodeJS"},{"image":"/icons/tailwind-css.svg", "techno":"Tailwind"}],
+    "website": "https://pomodoro-react-eric.netlify.app/",
+    "githubLink": "https://github.com/Eric198809/Pomodoro-React"
   }
 ]
