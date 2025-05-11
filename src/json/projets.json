@@ -148,5 +148,27 @@
     "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/node.svg", "techno":"NodeJS"},{"image":"/icons/tailwind-css.svg", "techno":"Tailwind"}],
     "website": "https://pomodoro-react-eric.netlify.app/",
     "githubLink": "https://github.com/Eric198809/Pomodoro-React"
+  },
+  {
+    "id": 15,
+    "categorie": "React",
+    "titre": "Copie Trello prise de notes",
+    "content": "Création d'une appli de prise de notes façon Trello.",
+    "imageStack": ["/icons/react.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/projet-en-cours.png",
+    "stackDetails":[{"image":"/icons/react.svg", "techno":"React"},{"image": "/icons/node.svg", "techno":"NodeJS"},{"image":"/icons/tailwind-css.svg", "techno":"Tailwind"}],
+    "website": "",
+    "githubLink": "https://github.com/Eric198809/App-prise-de-notes"
+  },
+  {
+    "id": 15,
+    "categorie": "NextJS",
+    "titre": "Portfolio avec espace personnel",
+    "content": "Création d'un profolio avec session d'authentification pour ajouter de nouveaux projets",
+    "imageStack": ["/icons/react.svg", "/icons/php.svg", "/icons/workbench.svg"],
+    "image": "/images/projet-en-cours.png",
+    "stackDetails":[{"image":"/icons/next-js.svg", "techno":"React"},{"image": "/icons/node.svg", "techno":"NodeJS"},{"image":"/icons/tailwind-css.svg", "techno":"Tailwind"}, {"image":"/icons/mongodb.svg", "techno":"MongoDB"}],
+    "website": "",
+    "githubLink": ""
   }
 ]
